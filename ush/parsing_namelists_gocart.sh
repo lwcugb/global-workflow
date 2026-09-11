@@ -41,6 +41,10 @@ GOCART_namelists() {
         local tavg_2d_rad_freq="${fhout_aero_padded}0000"
         local tavg_3d_rad_freq="${fhout_aero_padded}0000"
 
+	##copy catchem yaml file
+        cpreq  "${AERO_CONFIG_DIR}/CATChem_*.yml"  "${DATA}"
+        #copy done
+
         for template_in in "${AERO_CONFIG_DIR}/"*.rc; do
             base_in="$(basename "${template_in}")"
             atparse < "${template_in}" >> "${DATA}/${base_in}"

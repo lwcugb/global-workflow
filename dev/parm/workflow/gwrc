@@ -3,8 +3,8 @@
 # jinja templates are allowed, only os.environ is available for
 # realizing the templated variables
 user:
-  ACCOUNT: {{ 'HPC_ACCOUNT' | getenv }}
-  HOMEDIR: 'default'
+  ACCOUNT: "arl" #{{ 'HPC_ACCOUNT' | getenv }}
+  HOMEDIR: '/scratch4/NAGAPE/arl/Wei.K.Li/expt_dirs'
   STMP: 'default'
   PTMP: 'default'
   NOSCRUB: 'default'

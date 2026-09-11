@@ -4,8 +4,8 @@ experiment:
   pslot: {{ 'pslot' | getenv }}
   app: ATMA
   resdetatmos: 96
-  comroot: '/gpfs/f6/bil-fire3/scratch/Wei.K.Li/expt_dirs/COMROOT' #{{ 'RUNTESTS' | getenv }}/COMROOT
-  expdir: '/gpfs/f6/bil-fire3/scratch/Wei.K.Li/expt_dirs/EXPDIR' #{{ 'RUNTESTS' | getenv }}/EXPDIR
+  comroot: '/scratch4/NAGAPE/arl/Wei.K.Li/expt_dirs/COMROOT' #{{ 'RUNTESTS' | getenv }}/COMROOT
+  expdir: '/scratch4/NAGAPE/arl/Wei.K.Li/expt_dirs/EXPDIR' #{{ 'RUNTESTS' | getenv }}/EXPDIR
   icsdir: {{ BASE_IC }}/C96C48/20250808
   idate: 2021122012
   edate: 2021122100

@@ -244,6 +244,7 @@ FV3_namelists() {
     local RAS=${ras:-".false."}
     local CDMBGWD=${cdmbgwd:-"3.5,0.25"}
     local PSL_GWD_DX_FACTOR=${psl_gwd_dx_factor:-"6.0"}
+    local ALPHA_FD=${alpha_fd:-"1.0"} #not sure if 1 is default
     local PRSLRD0=${prslrd0:-"0."}
     local IVEGSRC=${ivegsrc:-"1"}
     local ISOT=${isot:-"1"}
@@ -291,6 +292,7 @@ FV3_namelists() {
     local DO_SKEB=${do_skeb:-".false."}
     local FRAC_GRID=${FRAC_GRID:-".true."}
     local CPLCHM=${cplchm:-".false."}
+    local CPLCAT=${cplcat:-".false."}
     local CPLFLX=${cplflx:-".false."}
     local CPLICE=${cplice:-".false."}
     local CPLWAV=${cplwav:-".false."}

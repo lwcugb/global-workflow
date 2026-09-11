@@ -645,6 +645,7 @@ fi
 if [[ "${skip_gocart}" == "false" ]]; then
   source "${EXPDIR}/config.aero"
   export cplchm=".true."
+  export cplcat=".true."
   model_list="${model_list}.aero"
 fi
 

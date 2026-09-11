@@ -19,6 +19,9 @@ fi
 export job="fcst"
 export jobid="${job}.$$"
 
+##keep memory fixed for MPI
+export I_MPI_FABRICS=ofi
+
 # Execute the JJOB
 "${HOMEglobal}/dev/jobs/JGLOBAL_FORECAST"
 status=$?
